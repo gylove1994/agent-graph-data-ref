@@ -1,0 +1,21 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "",
+    "$dynamicAnchor": "meta",
+    "title": "Agent Graph vocabulary meta-schema",
+    "type": [
+        "object",
+        "boolean"
+    ],
+    "properties": {
+        "data-ref": {
+            "$ref": "#/$defs/uriReferenceString"
+        }
+    },
+    "$defs": {
+        "uriReferenceString": {
+            "type": "string",
+            "format": "uri-reference"
+        }
+    }
+}
