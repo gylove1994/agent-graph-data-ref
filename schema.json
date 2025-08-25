@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "",
+    "$id": "https://raw.githubusercontent.com/gylove1994/agent-graph-data-ref/refs/heads/master/schema.json",
     "$dynamicAnchor": "meta",
     "title": "Agent Graph vocabulary meta-schema",
     "type": [
