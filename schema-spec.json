@@ -1,0 +1,20 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://raw.githubusercontent.com/gylove1994/agent-graph-data-ref/refs/heads/master/schema-spec.json",
+    "$vocabulary": {
+        "https://json-schema.org/draft/2020-12/vocab/core": true,
+        "https://json-schema.org/draft/2020-12/vocab/applicator": true,
+        "https://json-schema.org/draft/2020-12/vocab/validation": true,
+        "https://json-schema.org/draft/2020-12/vocab/meta-data": true,
+        "https://json-schema.org/draft/2020-12/vocab/format-annotation": true,
+        "https://json-schema.org/draft/2020-12/vocab/content": true,
+        "https://json-schema.org/draft/2020-12/vocab/unevaluated": true,
+        "https://github.com/gylove1994/agent-graph-data-ref": true
+    },
+    "$dynamicAnchor": "meta",
+    "title": "Agent Graph vocabulary meta-schema",
+    "allOf": [
+        { "$ref": "https://json-schema.org/draft/2020-12/schema" },
+        { "$ref": "https://raw.githubusercontent.com/gylove1994/agent-graph-data-ref/refs/heads/master/schema-spec.json" }
+    ]
+}
